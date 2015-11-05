@@ -1,0 +1,120 @@
+html{
+	height:100%;
+	overflow:hidden;
+}
+body{
+	height:100%;
+	overflow:hidden; 
+	margin: 0px;
+	padding: 0px;
+	color: #fff;
+	background-color: #000;
+	background-image: url(photo/content.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+
+	p:first-letter	{padding-left:2em;}
+
+/*¬[ºc*/
+div#banner{
+	height: 10%;
+	background-image: url(photo/top.png);
+	background-repeat: repeat-x; 
+	background-position: center top;
+}
+
+div#container{
+	position: relative;
+	margin: 0px 25px;
+	top: 5%; bottom: 5%;
+	height: 80%;
+}
+#navigation{
+	position: absolute;
+	width: 150px;
+	overflow:auto;
+}
+
+#content{
+	position: absolute;
+	width: 70%;
+	height: 70%;
+	left: 180px; top: 10%; right: 196px; bottom: 10%;
+	overflow:auto;
+	filter: chroma( color= #fcd800);
+	scrollbar-face-color: #000000;
+	scrollbar-highlight-color: #000000;
+	scrollbar-shadow-color: #000000;
+	scrollbar-3dlight-color: #000000;
+	scrollbar-arrow-color: #0000d8;
+	scrollbar-darkshadow-color: #000000;
+
+}
+#content h1{
+	color: orange;
+	font-size: 2em;
+}
+#content h3{
+	color: aqua;
+}
+#photo{
+	margin: 5px;
+	float: right;
+}
+
+#more{
+	position: absolute;
+	right: 10px;
+	width: 166px;
+}
+#more h1{
+	color: maroon;
+	font-size: 1.2em;
+}
+#more h3{
+	font-size: .8em;
+	font-weight: normal;
+
+}
+
+div#footer{
+	position: relative;
+	height: 10%;
+	background-image: url(photo/foot.png);
+	background-repeat: repeat-x; 
+	background-position: center bottom;
+}
+
+/*navigation_menu*/
+#menu{height: 500px; width:150px; background:url(photo/menu_all.png);}
+#menu li a{height:100px; width:150px; display:block; text-indent: -3000px;}
+#menu ul{list-style:none; margin: 0; padding: 0;}
+#menu li{float:left; margin:0;}
+.mu_index a:hover{background:url(photo/menu_all.png) 150px 0px}
+.mu_intro a:hover{background:url(photo/menu_all.png) 150px 400px}
+.mu_character a:hover{background:url(photo/menu_all.png) 150px 300px}
+.mu_story a:hover{background:url(photo/menu_all.png) 150px 200px}
+.mu_author a:hover{background:url(photo/menu_all.png) 150px 100px}
+
+
+/*¶W³sµ²*/
+a{
+	behavior:expression(this.onFocus=this.blur()); 
+	outline: none;
+}
+a:link{
+	color: #066;
+}
+a:visited{
+	color: #066;
+}
+a:hover ,a:active {
+	color: #fff;
+	background-image: url(photo/menu.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-attachment: fixed;
+}
